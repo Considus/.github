@@ -4,7 +4,7 @@ The automatic Claude review in every Considus repository appends this file to it
 
 ## Dates are UK time
 
-The studio works in Europe/London. A date in a CHANGELOG, a commit or a PR that is one day ahead of UTC is today in London, not a future date. Do not report it.
+The studio works in Europe/London. During British Summer Time (late March to late October) London is one hour ahead of UTC, so between 00:00 and 01:00 BST a CHANGELOG, commit or PR date is already the next day in UTC terms. Before reporting a date as in the future, check it against today's date in Europe/London; if it matches, it is not a finding. A date later than that is.
 
 ## Check a claim about platform support before making it
 
